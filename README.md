@@ -1,6 +1,6 @@
 ```
 git clone https://github.com/salim114/ldap_laravel ldap_laravel
-ldap_laravel
+cd ldap_laravel
 composer update
 cp .env.example .env
 php artisan key:generate
