@@ -8,8 +8,8 @@ touch database/database.sqlite
 php artisan migrate
 php artisan serve
 ```
-i was inspired by https://github.com/jaydouble/laravel-simple-ldap-auth and https://github.com/ideosis/openldap
-and the lines below is about the package  [Adldap2/Adldap2-Laravel](https://github.com/Adldap2/Adldap2-Laravel) which is included in this project
+I was inspired by https://github.com/jaydouble/laravel-simple-ldap-auth and https://github.com/ideosis/openldap
+and the lines below is about the package  [Adldap2/Adldap2-Laravel](https://github.com/Adldap2/Adldap2-Laravel) which was included in this project
 
 # OpenLDAP - LDAP authentification in Laravel 5.8
 
