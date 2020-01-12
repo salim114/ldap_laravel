@@ -1,3 +1,15 @@
+git clone https://github.com/salim114/ldap_laravel ldap_laravel
+ldap_laravel
+composer update
+cp .env.example .env
+php artisan key:generate
+touch database/database.sqlite
+php artisan migrate
+php artisan serve
+
+i was inspired by https://github.com/jaydouble/laravel-simple-ldap-auth and https://github.com/ideosis/openldap
+and the lines below is about the package  [Adldap2/Adldap2-Laravel](https://github.com/Adldap2/Adldap2-Laravel) which is included in this project
+
 # OpenLDAP - LDAP authentification in Laravel 5.8
 
 This is a detailed step-by-step [Laravel](https://laravel.com/) installation manual adapted
@@ -466,4 +478,4 @@ The password is `password` for all of them.
 
 Log in and play around.
 
-Was this article useful? Give it a star!
+
