@@ -5,7 +5,7 @@ composer update
 cp .env.example .env
 php artisan key:generate
 ```
-after that open your .env,  delete all lines below after ``APP_URL=http://localhost`` and than past this :
+after that open your .env,  delete all lines after ``APP_URL=http://localhost`` and then past this :
 
 ```
 LOG_CHANNEL=stack
